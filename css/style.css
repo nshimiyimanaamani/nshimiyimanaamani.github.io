@@ -215,6 +215,7 @@ body {
 	background-color: #ffffff;
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
+	scroll-behavior: smooth
 }
 
 @media (min-width: 992px) {
