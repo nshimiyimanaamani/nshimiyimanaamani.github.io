@@ -1,10 +1,11 @@
-<footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
+ <!-- Footer Minimal-->
+ <footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
         <div class="container container-wide">
           <div class="row row-fix justify-content-sm-center align-items-md-center row-30">
-            <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.html"><img class="inverse-logo" src="" alt="" width="208" height="46"/></a></div>
+            <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.php"><img class="inverse-logo" src="SiteImages/ts/TRAVEL TEAM RWANDA-LOGO BLACK2.png" alt="" width="250" height="200"/></a></div>
             <div class="col-md-10 col-lg-7 col-xl-4">
-              <p class="right">&#169;&nbsp;<span class="copyright-year"></span> All Rights Reserved. Design&nbsp;by&nbsp;<a href="Terms.html">Terms and condition</a>
-                <br><a href="Privacy.html">Privacy Policy</a></p>
+              <p class="right">&#169;&nbsp;<span class="copyright-year"></span> All Rights Reserved. Design&nbsp;by&nbsp;<a href="Terms.php">Terms and condition</a>
+                <br><a href="Privacy.php">Privacy Policy</a></p>
               
             </div>
             <div class="col-md-10 col-lg-7 col-xl-4 text-xl-right">

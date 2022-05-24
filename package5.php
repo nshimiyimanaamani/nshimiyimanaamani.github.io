@@ -1,116 +1,24 @@
+
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en"> 
   <head>
     <!-- Site Title-->
-    <title>Nyandungu urban wetland</title>
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
-		<!--[if lt IE 10]>
-    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <script src="js/html5shiv.min.js"> </script>
-		<![endif]--> 
-  </head>
-  <body>
-    <!-- Page preloader-->
-    <div class="page-loader"> 
-      <div class="page-loader-body"> 
-        <div class="preloader-wrapper big active"> 
-          <div class="spinner-layer spinner-blue"> 
-            <div class="circle-clipper left">
-              <div class="circle"> </div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"> </div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-          <div class="spinner-layer spinner-red">
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"> </div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-          <div class="spinner-layer spinner-yellow"> 
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"></div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"> </div>
-            </div>
-          </div>
-          <div class="spinner-layer spinner-green"> 
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"></div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <title>Package1</title>
+   <?php include_once "menu.php"?>
     <!-- Page-->
     <!-- <div class="page"><a class="section section-banner text-center d-none d-xl-block" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )"><img src="images/banner/foreground-04-1600x60.png" srcset="images/banner/foreground-04-1600x60.png 1x, images/banner/foreground-04-3200x120.png 2x" alt="" width="1600" height="310"></a> -->
       <!-- Page Header-->
       <header class="section page-header breadcrumbs-custom-wrap bg-gradient bg-secondary-2 novi-background bg-cover">
         <!-- RD Navbar-->
-        <div class="rd-navbar-wrap rd-navbar-default">
-          <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static" data-md-stick-up-offset="2px" data-lg-stick-up-offset="2px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-xl-stick-up="true">
-            <div class="rd-navbar-inner"> 
-              <!-- RD Navbar Panel-->
-              <div class="rd-navbar-panel">
-                <!-- RD Navbar Toggle-->
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/logo-default-208x46.png" alt="" width="208" height="46"/><img class="logo-inverse" src="images/logo-inverse-208x46.png" alt="" width="208" height="46"/></a></div>
-              </div>
-              <div class="rd-navbar-aside-right">
-                <div class="rd-navbar-nav-wrap">
-                  <!-- RD Navbar Nav-->
-                  <ul class="rd-navbar-nav">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li><a href="about-us.html">About Us</a>
-                    </li>
-                    <li><a href="contacts.html">Contacts</a>
-                    </li>
-                    <li class="active"><a href="typography.html">Typography</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
+     
         <!-- Breadcrumbs-->
         <section class="breadcrumbs-custom" style="background: url(&quot;SiteImages/ts/-1x-1.jpg&quot;); background-size: cover;">
           <div class="container">
-            <p class="breadcrumbs-custom-subtitle"></p>
-            <p class="heading-1 breadcrumbs-custom-title">Nyandungu urban wetland</p>
+            <!-- <p class="breadcrumbs-custom-subtitle">Choose Your Style</p> -->
+            <p class="heading-1 breadcrumbs-custom-title">A SPECIAL GETWAY TO ZANZIBAR</p>
             <ul class="breadcrumbs-custom-path">
-              <li><a href="index.html">Home</a></li>
-              <li class="active">Nyandungu urban wetland</li>
+              <li><a href="index.php">Home</a></li>
+              <li class="active">A SPECIAL GETWAY TO ZANZIBAR</li>
             </ul>
           </div>
         </section>
@@ -159,8 +67,8 @@
       </section> -->
 
       <!-- Blockquote-->
-      <!-- <section class="section section-lg bg-default"> -->
-        <!-- <div class="container">
+      <!-- <section class="section section-lg bg-default">
+        <div class="container">
           <div class="row row-50 row-fix">
             <div class="col-lg-10 col-xl-8">
               <h3>Blockquote</h3>
@@ -201,24 +109,77 @@
       </section> -->
 
       <!-- Unordered List-->
-      <!-- <section class="section section-lg bg-default">
+      <section class="section section-lg bg-default">
         <div class="container">
           <div class="row row-50 row-fix">
             <div class="col-lg-10 col-xl-8">
-              <h3>Unordered List</h3>
-              <p>We specialize in a variety of services. Our aim is to deliver the top level of customer service based on your requests.</p>
-              <ul class="list-marked">
-                <li>Consulting</li>
-                <li>Customer Service</li>
-                <li>Innovation</li>
-                <li>Management</li>
-                <li>Ethics</li>
-              </ul>
-              <p>We hope that with our services you will receive the most personalized help in purchasing any kind of products you are looking for.</p>
+              <h3 >A SPECIAL GETWAY TO ZANZIBAR</h3>
+              <p>5 Nights on Zanzibar Bay Beach Restor On Half Board</p>
+              <p>Return Transfer To/From Airport</p>
+              <p>Activities:</p>
+              <ul>City Tour</ul>
+              <ul>Visit To Prison Island</ul>
+              <ul>Dorphin Swim</ul>
+              <ul>Horse Swim</ul>
+              <p>Spice Tour</p>
+            <ul>Sunset Cruise</ul>
+            <ul>All Entrance Fee During the Tour Inclusive</ul>
+            <ul>All Government Tax Inclusive</ul>
+              <p>Price Per Person Without Flight:$800</p>
+              <p> Want to Contact us about this unforgettable mounth-watering Trip??</p>
+<p>Operator: Travel Team Rwanda Ltd</p>
+<a class="button button-default-outline button-nina button-sm icon novi-icon icon-md-smaller icon-secondary mdi mdi-whatsapp" href="contactus.php" id="learn">Contact us</a><
             </div>
           </div>
+          <div class="owl-carousel owl-carousel-team owl-carousel-inset"  style="width:60%"data-items="1" data-md-items="2" data-xl-items="3" data-stage-padding="15" data-loop="true" data-margin="30" data-mouse-drag="false" data-dots="true" data-autoplay="true">
+                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages/ts/Zanzibar (1).jpg" alt="" width="200" height="200"/></a>
+                  <div class="post-blog-caption">
+                    <div class="post-blog-caption-header">
+                      <!-- <ul class="post-blog-tags">
+                        <li><a class="button-tags" href="#">$40</a></li>
+                      </ul> -->
+                      <!-- <ul class="post-blog-meta">
+                        <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
+                      </ul> -->
+                    </div>
+                    <div class="post-blog-caption-body">
+                      <!-- <h5><a class="post-blog-title" href="pagackage1.php">5 DAYS GORILLAS & LAKE KIVU TOUR
+                                    </a></h5> -->
+                    </div>
+                    <!-- <div class="post-blog-caption-footer">
+                      <time datetime="2019">Feb 27, 2019 at 6:53 pm</time><a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>
+                    </div> -->
+                  </div>
+                </article>
+                
+            
+               
+
+                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages/ts/zanzibar2 (1).jpg" alt="" width="200" height="200"/></a>
+                  <div class="post-blog-caption">
+                    <div class="post-blog-caption-header">
+                      <!-- <ul class="post-blog-tags">
+                        <li><a class="button-tags" href="#">Traveling</a></li>
+                      </ul>
+                      <ul class="post-blog-meta">
+                        <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
+                      </ul> -->
+                    </div>
+                    <div class="post-blog-caption-body">
+                      <!-- <h5><a class="post-blog-title" href="#">3-D AYS NYUNGWE FOREST CHIMPANZEES TOUR</a></h5>
+                    </div> -->
+                    <!-- <div class="post-blog-caption-footer">
+                      <time datetime="2019">Feb 27, 2019 at 6:53 pm</time><a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>
+                    </div> -->
+                  </div>
+                </article>
+              
+                
+              </div>
+            </div>
         </div>
-      </section> -->
+      </section>
+      
 
       <!-- Ordered List-->
       <!-- <section class="section section-lg bg-default">
@@ -277,8 +238,8 @@
               </div>
             </div>
           </div>
-        </div>
-      </section> -->
+        </div> -->
+      </section>
 
       <!-- Image Centered-->
       <!-- <section class="section section-lg bg-default">
@@ -298,31 +259,22 @@
       </section> -->
 
       <!-- Image Left-->
-      <section class="section section-lg bg-default">
+      <!-- <section class="section section-lg bg-default">
         <div class="container">
           <div class="row row-fix">
             <div class="col-lg-10 col-xl-8">
-              <h3>Discover Nyandungu urban wetland</h3>
+              <h3>Image Left</h3>
               <div class="row row-30">
-                <div class="col-md-6"><img src="SiteImages/ts/nyandugu urban wetland.jpg" alt="" width="770" height="480"/>
+                <div class="col-md-6"><img src="images/typography-1-770x480.jpg" alt="" width="770" height="480"/>
                 </div>
                 <div class="col-md-6">
-                  <p>Nyandungu Urban Wetland Eco-Tourism Park is composed of ornamental ponds, gallery forests,
-                    medicinal plant gardens, paved walk ways and cycle lanes, restaurants, information center,
-                    recreational and other biodiversity services. Its idle for a quite time, time of sober reflection, a time
-                    to be close to nature once again in your lifetime.</p>
-                    <p>It was built with the idea of supporting innovative approaches to restore and conserve wetland
-                      ecosystems on 120 Ha of land organized in 5 sections. In the park, there are various water ponds
-                      located in the park named after different lakes in Rwanda including Muhazi, Kivu, Ruhondo and
-                      Ihema which provide a comfortable place for visitors to take a health break amidst the serene
-                      natural environment. Birds of diverse species and butterfly species are another good sight to the
-                      wetland.</p>
+                  <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Image Right-->
       <!-- <section class="section section-lg bg-default">
@@ -341,10 +293,10 @@
           </div>
         </div>
       </section> -->
-<a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
+<!-- <a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a> -->
       <!-- Page Footer-->
       <!-- Footer Minimal-->
-      <footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
+      <!-- <footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
         <div class="container container-wide">
           <div class="row row-fix justify-content-sm-center align-items-md-center row-30">
             <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.html"><img class="inverse-logo" src="images/logo-inverse-208x46.png" alt="" width="208" height="46"/></a></div>
@@ -362,8 +314,14 @@
             </div>
           </div>
         </div>
-      </footer>
+      </footer> -->
+      <?php include_once "footer.php"?>
     </div>
+    <style>
+      p {
+        font-weight:600;
+      }
+    </style>
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"> </div>
     <!-- Javascript-->

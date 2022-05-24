@@ -2,124 +2,31 @@
 <html class="wide wow-animation" lang="en"> 
   <head>
     <!-- Site Title-->
-    <title>Typography</title>
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
-		<!--[if lt IE 10]>
-    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <script src="js/html5shiv.min.js"> </script>
-		<![endif]--> 
-  </head>
-  <body>
-    <!-- Page preloader-->
-    <div class="page-loader"> 
-      <div class="page-loader-body"> 
-        <div class="preloader-wrapper big active"> 
-          <div class="spinner-layer spinner-blue"> 
-            <div class="circle-clipper left">
-              <div class="circle"> </div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"> </div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-          <div class="spinner-layer spinner-red">
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"> </div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-          <div class="spinner-layer spinner-yellow"> 
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"></div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"> </div>
-            </div>
-          </div>
-          <div class="spinner-layer spinner-green"> 
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"></div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <title>Akagera</title>
+    <?php include_once "menu.php"?>
     <!-- Page-->
-    <div class="page"><a class="section section-banner text-center d-none d-xl-block" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )"><img src="images/banner/foreground-04-1600x60.png" srcset="images/banner/foreground-04-1600x60.png 1x, images/banner/foreground-04-3200x120.png 2x" alt="" width="1600" height="310"></a>
+    <!-- <div class="page"><a class="section section-banner text-center d-none d-xl-block" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )"><img src="images/banner/foreground-04-1600x60.png" srcset="images/banner/foreground-04-1600x60.png 1x, images/banner/foreground-04-3200x120.png 2x" alt="" width="1600" height="310"></a> -->
       <!-- Page Header-->
       <header class="section page-header breadcrumbs-custom-wrap bg-gradient bg-secondary-2 novi-background bg-cover">
         <!-- RD Navbar-->
-        <div class="rd-navbar-wrap rd-navbar-default">
-          <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static" data-md-stick-up-offset="2px" data-lg-stick-up-offset="2px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-xl-stick-up="true">
-            <div class="rd-navbar-inner"> 
-              <!-- RD Navbar Panel-->
-              <div class="rd-navbar-panel">
-                <!-- RD Navbar Toggle-->
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/logo-default-208x46.png" alt="" width="208" height="46"/><img class="logo-inverse" src="images/logo-inverse-208x46.png" alt="" width="208" height="46"/></a></div>
-              </div>
-              <div class="rd-navbar-aside-right">
-                <div class="rd-navbar-nav-wrap">
-                  <!-- RD Navbar Nav-->
-                  <ul class="rd-navbar-nav">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li><a href="about-us.html">About Us</a>
-                    </li>
-                    <li><a href="contacts.html">Contacts</a>
-                    </li>
-                    <li class="active"><a href="typography.html">Typography</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
+       
         <!-- Breadcrumbs-->
-        <section class="breadcrumbs-custom" style="background: url(&quot;images/breadcrumbs-bg.jpg&quot;); background-size: cover;">
+        <section class="breadcrumbs-custom" style="background: url(&quot;SiteImages/ts/-1x-1.jpg&quot;); background-size: cover;">
           <div class="container">
-            <p class="breadcrumbs-custom-subtitle">Choose Your Style</p>
-            <p class="heading-1 breadcrumbs-custom-title">Typography</p>
+            <p class="breadcrumbs-custom-subtitle"></p>
+            <p class="heading-1 breadcrumbs-custom-title">Akagera</p>
             <ul class="breadcrumbs-custom-path">
-              <li><a href="index.html">Home</a></li>
-              <li class="active">Typography</li>
+              <li><a href="index.php">Home</a></li>
+              <li class="active">Akagera</li>
             </ul>
           </div>
         </section>
 
       </header>
       <!-- Base typography-->
-      <section class="section section-lg bg-default">
+      <!-- <section class="section section-lg bg-default"> -->
         <!-- section wave-->
-        <div class="section-wave">
+        <!-- <div class="section-wave">
           <svg x="0px" y="0px" width="1920px" height="45px" viewbox="0 0 1920 45" preserveAspectRatio="none">
             <path d="M1920,0c-82.8,0-108.8,44.4-192,44.4c-78.8,0-116.5-43.7-192-43.7 c-77.1,0-115.9,44.4-192,44.4c-78.2,0-114.6-44.4-192-44.4c-78.4,0-115.3,44.4-192,44.4C883.1,45,841,0.6,768,0.6 C691,0.6,652.8,45,576,45C502.4,45,461.9,0.6,385,0.6C306.5,0.6,267.9,45,191,45C115.1,45,78,0.6,0,0.6V45h1920V0z"></path>
           </svg>
@@ -156,11 +63,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Blockquote-->
-      <section class="section section-lg bg-default">
-        <div class="container">
+      <!-- <section class="section section-lg bg-default"> -->
+        <!-- <div class="container">
           <div class="row row-50 row-fix">
             <div class="col-lg-10 col-xl-8">
               <h3>Blockquote</h3>
@@ -176,10 +83,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- HTML Text Elements-->
-      <section class="section section-lg bg-default">
+      <!-- <section class="section section-lg bg-default">
         <div class="container">
           <div class="row row-fix">
             <div class="col-lg-10 col-xl-8">
@@ -198,10 +105,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Unordered List-->
-      <section class="section section-lg bg-default">
+      <!-- <section class="section section-lg bg-default">
         <div class="container">
           <div class="row row-50 row-fix">
             <div class="col-lg-10 col-xl-8">
@@ -218,10 +125,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Ordered List-->
-      <section class="section section-lg bg-default">
+      <!-- <section class="section section-lg bg-default">
         <div class="container">
           <div class="row row-50 row-fix">
             <div class="col-lg-10 col-xl-8">
@@ -238,10 +145,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Icon List-->
-      <section class="section section-lg bg-default">
+      <!-- <section class="section section-lg bg-default">
         <div class="container">
           <div class="row row-fix">
             <div class="col-sm-12">
@@ -278,10 +185,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Image Centered-->
-      <section class="section section-lg bg-default">
+      <!-- <section class="section section-lg bg-default">
         <div class="container">
           <div class="row row-fix">
             <div class="col-lg-10 col-xl-8">
@@ -295,19 +202,23 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Image Left-->
       <section class="section section-lg bg-default">
         <div class="container">
           <div class="row row-fix">
             <div class="col-lg-10 col-xl-8">
-              <h3>Image Left</h3>
+              <h3>Discover Akagera</h3>
               <div class="row row-30">
-                <div class="col-md-6"><img src="images/typography-1-770x480.jpg" alt="" width="770" height="480"/>
+                <div class="col-md-6"><img src="SiteImages/ts/akagera-national-park-zebras.jpg" alt="" width="770" height="480"/>
                 </div>
                 <div class="col-md-6">
-                  <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
+                  <p>The Akegera National Park is another amazing natural piece and wonder. A visit to Rwanda is
+                    incomplete without a sight of this beautiful natural scape. The relatively warm and low-lying plains
+                    of Akagera comprise savannah, woodland, wetland and a dozen lakes. In partnership with African
+                    Parks, it can boast of lions, rhinos, elephants, giraffes, zebras and other animal species.
+                    The African BIG FIVEs are on the wait for you.</p><a class="button button-default-outline button-nina button-sm icon novi-icon icon-md-smaller icon-secondary mdi mdi-whatsapp" href="#" id="learn">Know more</a>
                 </div>
               </div>
             </div>
@@ -316,7 +227,7 @@
       </section>
 
       <!-- Image Right-->
-      <section class="section section-lg bg-default">
+      <!-- <section class="section section-lg bg-default">
         <div class="container">
           <div class="row">
             <div class="col-lg-10 col-xl-8">
@@ -331,30 +242,18 @@
             </div>
           </div>
         </div>
-      </section>
-<a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
+      </section> -->
+<!-- <a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a> -->
       <!-- Page Footer-->
       <!-- Footer Minimal-->
-      <footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
-        <div class="container container-wide">
-          <div class="row row-fix justify-content-sm-center align-items-md-center row-30">
-            <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.html"><img class="inverse-logo" src="images/logo-inverse-208x46.png" alt="" width="208" height="46"/></a></div>
-            <div class="col-md-10 col-lg-7 col-xl-4">
-              <p class="right">&#169;&nbsp;<span class="copyright-year"></span> All Rights Reserved. Design&nbsp;by&nbsp;<a href="https://www.templatemonster.com">TemplateMonster</a></p>
-            </div>
-            <div class="col-md-10 col-lg-7 col-xl-4 text-xl-right">
-              <ul class="group-xs group-middle"> 
-                <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-facebook" href="#"></a></li>
-                <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-twitter" href="#"></a></li>
-                <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-instagram" href="#"></a></li>
-                <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-google" href="#"></a></li>
-                <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-linkedin" href="#"></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <?php include_once "footer.php"?>
     </div>
+    <style>
+      #learn:hover{
+        background-color: #1D34B8;
+	border-color: #1D34B8;
+      }
+      </style>
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"> </div>
     <!-- Javascript-->

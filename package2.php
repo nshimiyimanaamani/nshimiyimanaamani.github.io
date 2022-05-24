@@ -2,115 +2,22 @@
 <html class="wide wow-animation" lang="en"> 
   <head>
     <!-- Site Title-->
-    <title>Nyandungu urban wetland</title>
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
-		<!--[if lt IE 10]>
-    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <script src="js/html5shiv.min.js"> </script>
-		<![endif]--> 
-  </head>
-  <body>
-    <!-- Page preloader-->
-    <div class="page-loader"> 
-      <div class="page-loader-body"> 
-        <div class="preloader-wrapper big active"> 
-          <div class="spinner-layer spinner-blue"> 
-            <div class="circle-clipper left">
-              <div class="circle"> </div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"> </div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-          <div class="spinner-layer spinner-red">
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"> </div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-          <div class="spinner-layer spinner-yellow"> 
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"></div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"> </div>
-            </div>
-          </div>
-          <div class="spinner-layer spinner-green"> 
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"></div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <title>Package1</title>
+   <?php include_once "menu.php"?>
     <!-- Page-->
     <!-- <div class="page"><a class="section section-banner text-center d-none d-xl-block" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )"><img src="images/banner/foreground-04-1600x60.png" srcset="images/banner/foreground-04-1600x60.png 1x, images/banner/foreground-04-3200x120.png 2x" alt="" width="1600" height="310"></a> -->
       <!-- Page Header-->
       <header class="section page-header breadcrumbs-custom-wrap bg-gradient bg-secondary-2 novi-background bg-cover">
         <!-- RD Navbar-->
-        <div class="rd-navbar-wrap rd-navbar-default">
-          <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static" data-md-stick-up-offset="2px" data-lg-stick-up-offset="2px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-xl-stick-up="true">
-            <div class="rd-navbar-inner"> 
-              <!-- RD Navbar Panel-->
-              <div class="rd-navbar-panel">
-                <!-- RD Navbar Toggle-->
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/logo-default-208x46.png" alt="" width="208" height="46"/><img class="logo-inverse" src="images/logo-inverse-208x46.png" alt="" width="208" height="46"/></a></div>
-              </div>
-              <div class="rd-navbar-aside-right">
-                <div class="rd-navbar-nav-wrap">
-                  <!-- RD Navbar Nav-->
-                  <ul class="rd-navbar-nav">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li><a href="about-us.html">About Us</a>
-                    </li>
-                    <li><a href="contacts.html">Contacts</a>
-                    </li>
-                    <li class="active"><a href="typography.html">Typography</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
+     
         <!-- Breadcrumbs-->
         <section class="breadcrumbs-custom" style="background: url(&quot;SiteImages/ts/-1x-1.jpg&quot;); background-size: cover;">
           <div class="container">
-            <p class="breadcrumbs-custom-subtitle"></p>
-            <p class="heading-1 breadcrumbs-custom-title">VOLCANOES NATIONAL PARK</p>
+            <!-- <p class="breadcrumbs-custom-subtitle">Choose Your Style</p> -->
+            <p class="heading-1 breadcrumbs-custom-title">5 DAYS GORILLAS & LAKE KIVU TOUR</p>
             <ul class="breadcrumbs-custom-path">
-              <li><a href="index.html">Home</a></li>
-              <li class="active">VOLCANOES NATIONAL PARK</li>
+              <li><a href="index.php">Home</a></li>
+              <li class="active">5 DAYS GORILLAS & LAKE KIVU TOUR</li>
             </ul>
           </div>
         </section>
@@ -159,8 +66,8 @@
       </section> -->
 
       <!-- Blockquote-->
-      <!-- <section class="section section-lg bg-default"> -->
-        <!-- <div class="container">
+      <!-- <section class="section section-lg bg-default">
+        <div class="container">
           <div class="row row-50 row-fix">
             <div class="col-lg-10 col-xl-8">
               <h3>Blockquote</h3>
@@ -201,24 +108,75 @@
       </section> -->
 
       <!-- Unordered List-->
-      <!-- <section class="section section-lg bg-default">
+      <section class="section section-lg bg-default">
         <div class="container">
           <div class="row row-50 row-fix">
             <div class="col-lg-10 col-xl-8">
-              <h3>Unordered List</h3>
-              <p>We specialize in a variety of services. Our aim is to deliver the top level of customer service based on your requests.</p>
-              <ul class="list-marked">
-                <li>Consulting</li>
-                <li>Customer Service</li>
-                <li>Innovation</li>
-                <li>Management</li>
-                <li>Ethics</li>
-              </ul>
-              <p>We hope that with our services you will receive the most personalized help in purchasing any kind of products you are looking for.</p>
+              <h3 >3-DAYS NYUNGWE FOREST CHIMPANZEES TOUR</h3>
+              <p > Destinations: Kigali, Nyungwe Forest:</p>
+              <p>Age Range: 15- to 70-year-olds</p>
+              <p> Travel Style: Family, Private, Group </p>
+              <p>Operated in: English</p>
+              <p>Tour length: 3 days</p>
+              <p>Price per day: $300/p>
+              <p>Total package: $900</p>
+              <!-- <p>Tour ID: <?php echo rand(10,20)?></p> -->
+              <p>Itinerary:</p>
+              <p>Start in Kigali and end in Nyungwe Forest! With the Hiking & Trekking tour 3 Days Nyungwe Forest Chimpanzees Tour, you have a 3 days tour package taking you through Kigali, Rwanda and Nyungwe Forest,. 3 Days Nyungwe Forest Chimpanzees Tour includes accommodation, an expert guide, meals, transport and more.
+For detailed Brochure & Availability of this tour</p>
+<p>Operator: Travel Team Rwanda Ltd</p>
+<a class="button button-default-outline button-nina button-sm icon novi-icon icon-md-smaller icon-secondary mdi mdi-whatsapp" href="contactus.php" id="learn">Contact us</a>
             </div>
           </div>
+          <div class="owl-carousel owl-carousel-team owl-carousel-inset"  style="width:60%"data-items="1" data-md-items="2" data-xl-items="3" data-stage-padding="15" data-loop="true" data-margin="30" data-mouse-drag="false" data-dots="true" data-autoplay="true">
+                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages/ts/Nyungwe-Forest-National-Park (1).jpg" alt="" width="200" height="200"/></a>
+                  <div class="post-blog-caption">
+                    <div class="post-blog-caption-header">
+                      <!-- <ul class="post-blog-tags">
+                        <li><a class="button-tags" href="#">$40</a></li>
+                      </ul> -->
+                      <!-- <ul class="post-blog-meta">
+                        <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
+                      </ul> -->
+                    </div>
+                    <div class="post-blog-caption-body">
+                      <!-- <h5><a class="post-blog-title" href="pagackage1.php">5 DAYS GORILLAS & LAKE KIVU TOUR
+                                    </a></h5> -->
+                    </div>
+                    <!-- <div class="post-blog-caption-footer">
+                      <time datetime="2019">Feb 27, 2019 at 6:53 pm</time><a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>
+                    </div> -->
+                  </div>
+                </article>
+                
+            
+               
+
+                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages/ts/nyungwe1.jpg" alt="" width="200" height="200"/></a>
+                  <div class="post-blog-caption">
+                    <div class="post-blog-caption-header">
+                      <!-- <ul class="post-blog-tags">
+                        <li><a class="button-tags" href="#">Traveling</a></li>
+                      </ul>
+                      <ul class="post-blog-meta">
+                        <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
+                      </ul> -->
+                    </div>
+                    <div class="post-blog-caption-body">
+                      <!-- <h5><a class="post-blog-title" href="#">3-D AYS NYUNGWE FOREST CHIMPANZEES TOUR</a></h5>
+                    </div> -->
+                    <!-- <div class="post-blog-caption-footer">
+                      <time datetime="2019">Feb 27, 2019 at 6:53 pm</time><a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>
+                    </div> -->
+                  </div>
+                </article>
+              
+                
+              </div>
+            </div>
         </div>
-      </section> -->
+      </section>
+      
 
       <!-- Ordered List-->
       <!-- <section class="section section-lg bg-default">
@@ -277,8 +235,8 @@
               </div>
             </div>
           </div>
-        </div>
-      </section> -->
+        </div> -->
+      </section>
 
       <!-- Image Centered-->
       <!-- <section class="section section-lg bg-default">
@@ -298,37 +256,22 @@
       </section> -->
 
       <!-- Image Left-->
-      <section class="section section-lg bg-default">
+      <!-- <section class="section section-lg bg-default">
         <div class="container">
           <div class="row row-fix">
             <div class="col-lg-10 col-xl-8">
-              <h3>VOLCANOES NATIONAL PARK</h3>
+              <h3>Image Left</h3>
               <div class="row row-30">
-                <div class="col-md-6"><img src="SiteImages/ts/virunga national park volcano.jpg" alt="" width="770" height="680"/>
-                    
+                <div class="col-md-6"><img src="images/typography-1-770x480.jpg" alt="" width="770" height="480"/>
                 </div>
-                
                 <div class="col-md-6">
-                  <p>A great and iconic old volcanoes towering almost 15,000 feet, and nearly covered with rich, green
-                    rainforest – the Virungas.” Situated in the far northwest of Rwanda, Volcanoes National Park
-                    protects the steep slopes of this magnificent mountain range – home of the endangered mountain
-                    gorilla and a rich mosaic of montane ecosystems, which embrace evergreen and bamboo forest,
-                    open grassland, swamp and heath.</p>
-                    <p>Volcanoes National Park is named after the chain of dormant volcanoes making up the Virunga
-                        Massif: Karisimbi – the highest at 4,507m, Bisoke with its verdant crater lake, Sabinyo, Gahinga and
-                        Muhabura. Tracking endangered mountain gorillas through the mysterious intimacy of the rain
-                        forest, alive with the calls of 200 species of colorful birds and chattering of the rare golden monkey,
-                        is only one of the truly unique experiences in the area..</p>
-                        <p>Within the boundaries of Volcanoes National Park are Buhanga Eco-Park, an ancient forest holding
-                            Rwanda’s most intriguing folklore and Musanze Caves, formed 62 million years ago after the last
-                            estimated volcanic eruption. Hiking, canoeing, mountain biking and village experiences offer
-                            something for everyone to enjoy.</p>
+                  <p>Welcome to our wonderful world. We sincerely hope that each and every user entering our website will find exactly what he/she is looking for. With advanced features of activating account and new login widgets, you will definitely have a great experience of using our web page.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Image Right-->
       <!-- <section class="section section-lg bg-default">
@@ -347,10 +290,10 @@
           </div>
         </div>
       </section> -->
-<a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
+<!-- <a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a> -->
       <!-- Page Footer-->
       <!-- Footer Minimal-->
-      <footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
+      <!-- <footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
         <div class="container container-wide">
           <div class="row row-fix justify-content-sm-center align-items-md-center row-30">
             <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.html"><img class="inverse-logo" src="images/logo-inverse-208x46.png" alt="" width="208" height="46"/></a></div>
@@ -368,8 +311,14 @@
             </div>
           </div>
         </div>
-      </footer>
+      </footer> -->
+      <?php include_once "footer.php"?>
     </div>
+    <style>
+      p {
+        font-weight:600;
+      }
+    </style>
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"> </div>
     <!-- Javascript-->

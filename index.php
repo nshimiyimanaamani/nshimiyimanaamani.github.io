@@ -3,7 +3,7 @@
 <html class="wide wow-animation" lang="en"> 
   <head > 
     <!-- Site Title-->
-    <title>Home<?php?></title>
+    <title>Home</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,7 +34,7 @@
   </script>
   </head>
   <body>
-   
+  
     <!-- Page preloader-->
     <div class="page-loader"> 
       <div class="page-loader-body"> 
@@ -87,7 +87,7 @@
       </div>
     </div>
     <!-- Page-->
-    <!-- <div class="page"><a class="section section-banner text-center d-none d-xl-block" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )"><img src="images/banner/foreground-04-1600x60.png" srcset="images/banner/foreground-04-1600x60.png 1x, images/banner/foreground-04-3200x120.png 2x" alt="" width="1600" height="310"></a> -->
+    <!-- <div class="page"><a class="section section-banner text-center d-none d-xl-block" href="https://www.templatemonster.com/intense-multipurpose-html-template.php" style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )"><img src="images/banner/foreground-04-1600x60.png" srcset="images/banner/foreground-04-1600x60.png 1x, images/banner/foreground-04-3200x120.png 2x" alt="" width="1600" height="310"></a> -->
       <!-- Page Header-->
       <header class="section page-header">
         <!-- RD Navbar-->
@@ -99,11 +99,12 @@
                 <ul class="list-inline">
                   <li class="box-inline list-inline-item"><span class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-whatsapp"></span>
                     <ul class="list-comma">
-                      <li><a href="tel:#">25078XXXXXXXX</a></li>
-                      <li><a href="tel:#">+44xxxxxx</a></li>
+                      <li><a href="tel:#">250790134710</a></li>
+                      <li><a href="tel:#">+447452212956</a></li>
+                      <li><a href="tel:#">+254703475001</a></li>
                     </ul>
                   </li>
-                  <li class="box-inline list-inline-item"><span class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span><a href="#">Kigali,Rwanda  <?php echo"hii"?></a></li>
+                  <li class="box-inline list-inline-item"><span class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span><a href="#">Kigali,Rwanda  </a></li>
                   <li class="box-inline list-inline-item"><span class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-email"></span><a href="mailto:#">Mail@travelteamrw.com</a></li>
                 </ul>
                 <ul class="list-inline">
@@ -114,7 +115,7 @@
                   <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-linkedin" href="https://www.linkedin.com/in/travel-team-964753238/"></a></li>
                 </ul>
               </div>
-              <div class="rd-navbar-top-panel-inner"><a class="button button-sm button-secondary button-nina" href="https://www.templatemonster.com/website-templates/62466.html" target="_blank">buy template now</a></div>
+              <div class="rd-navbar-top-panel-inner"><a class="button button-sm button-secondary button-nina" href="https://www.templatemonster.com/website-templates/62466.php" target="_blank">buy template now</a></div>
             </div>
             <div class="rd-navbar-inner">
               <!-- RD Navbar Panel-->
@@ -122,7 +123,7 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/logo-default-208x46.png" alt="" width="208" height="46"/><img class="logo-inverse" src="images/logo-inverse-208x46.png" alt="" width="208" height="46"/></a></div>
+                <div class="rd-navbar-brand"><a class="brand-name" href="index.php"><img class="logo-default" src="SiteImages/ts/TRAVEL TEAM RWANDA-LOGO BLACK2.png" alt="" width="250" height="200"/></a></div>
               </div>
               <div class="rd-navbar-aside-center">
                 <div class="rd-navbar-nav-wrap">
@@ -137,9 +138,9 @@
                     </li>
                     <li><a href="#places">Places to visit</a>
                     </li>
-                    <li><a href="contacts.html">Contacts</a>
+                    <li><a href="contactus.php">Contacts</a>
                     </li>
-                    <li><a href="about-us.html">About Us</a>
+                    <li><a href="aboutus.php">About Us</a>
                     </li>
                   </ul>
                 </div>
@@ -207,7 +208,7 @@
                        
                         <p class="text-spacing-sm" style="font-weight: 600 !important;">Nyandungu Urban Wetland Eco-Tourism Park is composed of ornamental ponds, gallery forests,
                           medicinal plant gardens, paved walk ways and cycle lanes, restaurants, information center,
-                          recreational and other biodiversity services.</p><a class="button button-default-outline button-nina button-sm" href="#">learn more</a>
+                          recreational and other biodiversity services.</p><a class="button button-default-outline button-nina button-sm" href="#">Know more</a>
                       </div>
                     </div>
                   </div>
@@ -301,7 +302,7 @@
         </div>
       </section>
 
-      <section class="section section-variant-1 bg-default novi-background bg-cover" id="places"> 
+      <section class="section section-variant-1 bg-default novi-background bg-cover" id="places" style="margin-top: -90px;"> 
         <div class="container container-wide">
           <div class="row row-fix justify-content-xl-end row-30 text-center text-xl-left">
             <div class="col-xl-8">
@@ -318,22 +319,22 @@
                 <div class="event-default">
                   <figure class="event-default-image"><img src="SiteImages/ts/akagera-national-park-zebras.jpg" alt="" width="570" height="370"/>
                   </figure>
-                  <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="akager.html">learn more</a></div>
+                  <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="akager.php">Know more</a></div>
                 </div>
                 <div class="event-default-inner">
-                  <h5><a class="event-default-title" href="">Akagera</a></h5><span class="heading-5"></span>
+                  <h5><a class="event-default-title" href="">Akagera National Park</a></h5><span class="heading-5"></span>
                 </div>
               </article>
             </div>
             <div class="col-md-6 col-xl-4">
               <article class="event-default-wrap">
                 <div class="event-default">
-                  <figure class="event-default-image"><img src="SiteImages/ts/eco park.jpg" alt="" width="570" height="370"/>
+                  <figure class="event-default-image"><img src="SiteImages/ts/Rwanda-Culture-Village-DSC_7487-1-1650x1101.jpg" alt="" width="570" height="370"/>
                   </figure>
-                  <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>
+                  <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">Know more</a></div>
                 </div>
                 <div class="event-default-inner">
-                  <h5><a class="event-default-title" href="#">Eco Park</a></h5><span class="heading-5"></span>
+                  <h5><a class="event-default-title" href="#">Kigali Cultural Village</a></h5><span class="heading-5"></span>
                 </div>
               </article>
             </div>
@@ -342,7 +343,7 @@
                 <div class="event-default">
                   <figure class="event-default-image"><img src="SiteImages/ts/nyandugu urban wetland.jpg" alt="" width="570" height="370"/>
                   </figure>
-                  <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="wetland.html">learn more</a></div>
+                  <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="wetland.php">Know more</a></div>
                 </div>
                 <div class="event-default-inner">
                   <h5><a class="event-default-title" href="#">Nyandungu urban wetland</a></h5><span class="heading-5"></span>
@@ -354,7 +355,7 @@
                 <div class="event-default">
                   <figure class="event-default-image"><img src="SiteImages/ts/things-to-do-on-lake-kivu-rwanda.jpg" alt="" width="570" height="370"/>
                   </figure>
-                  <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="lakekivu.html">learn more</a></div>
+                  <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="lakekivu.php">Know more</a></div>
                 </div>
                 <div class="event-default-inner">
                   <h5><a class="event-default-title" href="#">Lake kivu</a></h5><span class="heading-5"></span>
@@ -366,7 +367,7 @@
                 <div class="event-default">
                   <figure class="event-default-image"><img src="SiteImages/ts/Nyungwe-Forest-National-Park.jpg" alt="" width="570" height="370"/>
                   </figure>
-                  <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="nyungwe.html">learn more</a></div>
+                  <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="nyungwe.php">Know more</a></div>
                 </div>
                 <div class="event-default-inner">
                   <h5><a class="event-default-title" href="#">Nyungwe national park</a></h5><span class="heading-5"></span>
@@ -378,10 +379,10 @@
                 <div class="event-default">
                   <figure class="event-default-image"><img src="SiteImages/ts/rwanda-top-attractions-volcanoes-national-park.jpg" alt="" width="570" height="370"/>
                   </figure>
-                  <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="virunga.html">learn more</a></div>
+                  <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="virunga.php">Know more</a></div>
                 </div>
                 <div class="event-default-inner">
-                  <h5><a class="event-default-title" href="#">Virunga natiol park</a></h5><span class="heading-5"></span>
+                  <h5><a class="event-default-title" href="#">Volcano National Park</a></h5><span class="heading-5"></span>
                 </div>
               </article>
             </div>
@@ -610,62 +611,136 @@
              
               <!-- Owl Carousel-->
               <div class="owl-carousel owl-carousel-team owl-carousel-inset" data-items="1" data-md-items="2" data-xl-items="3" data-stage-padding="15" data-loop="true" data-margin="30" data-mouse-drag="false" data-dots="true" data-autoplay="true">
-                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages//ts/nyandungu-4.jpg" alt="" width="570" height="415"/></a>
+                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages//ts/tets.jpeg.jpg" alt="" width="570" height="415"/></a>
                   <div class="post-blog-caption">
                     <div class="post-blog-caption-header">
-                      <ul class="post-blog-tags">
-                        <li><a class="button-tags" href="#">Hotels</a></li>
-                      </ul>
-                      <ul class="post-blog-meta">
+                      <!-- <ul class="post-blog-tags">
+                        <li><a class="button-tags" href="#">$40</a></li>
+                      </ul> -->
+                      <!-- <ul class="post-blog-meta">
                         <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
-                      </ul>
+                      </ul> -->
                     </div>
                     <div class="post-blog-caption-body">
-                      <h5><a class="post-blog-title" href="#">Top 10 Hotels to Stay At: Exclusive Rating by Sealine Travel Experts</a></h5>
+                      <h5><a class="post-blog-title" href="pagackage1.php">5 DAYS GORILLAS & LAKE KIVU TOUR
+                                    </a></h5>
                     </div>
-                    <div class="post-blog-caption-footer">
+                    <!-- <div class="post-blog-caption-footer">
                       <time datetime="2019">Feb 27, 2019 at 6:53 pm</time><a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>
-                    </div>
+                    </div> -->
                   </div>
                 </article>
                 
-                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages/ts/02_Akagera_Park_Rwanda_Safari_HandZaround_Cheap_Safari.jpg" alt="" width="570" height="415"/></a>
+            
+                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages/ts/akagerar.jpg" alt="" width="570" height="415"/></a>
                   <div class="post-blog-caption">
                     <div class="post-blog-caption-header">
-                      <ul class="post-blog-tags">
-                        <li><a class="button-tags" href="#">Tips</a></li>
-                      </ul>
-                      <ul class="post-blog-meta">
-                        <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
-                      </ul>
-                    </div>
-                    <div class="post-blog-caption-body">
-                      <h5><a class="post-blog-title" href="#">How to Plan Your Vacation in Advance and Why It’s Beneficial</a></h5>
-                    </div>
-                    <div class="post-blog-caption-footer">
-                      <time datetime="2019">Feb 27, 2019 at 6:53 pm</time><a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>
-                    </div>
-                  </div>
-                </article>
-                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages/ts/3-days-akagera-national-park-wildlife-safari.jpg" alt="" width="570" height="415"/></a>
-                  <div class="post-blog-caption">
-                    <div class="post-blog-caption-header">
-                      <ul class="post-blog-tags">
+                      <!-- <ul class="post-blog-tags">
                         <li><a class="button-tags" href="#">Traveling</a></li>
                       </ul>
                       <ul class="post-blog-meta">
                         <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
-                      </ul>
+                      </ul> -->
                     </div>
                     <div class="post-blog-caption-body">
-                      <h5><a class="post-blog-title" href="#">Your Personal Guide to 5 Best Places to Visit on Earth</a></h5>
+                      <h5><a class="post-blog-title" href="package.php">3-DAY AKAGERA NATIONAL PARK WILDLIFE SAFARI</a></h5>
                     </div>
-                    <div class="post-blog-caption-footer">
+                    <!-- <div class="post-blog-caption-footer">
                       <time datetime="2019">Feb 27, 2019 at 6:53 pm</time><a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>
-                    </div>
+                    </div> -->
                   </div>
                 </article>
-                
+
+                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages/ts/Nyungwe-Forest-National-Park (1).jpg" alt="" width="570" height="415"/></a>
+                  <div class="post-blog-caption">
+                    <div class="post-blog-caption-header">
+                      <!-- <ul class="post-blog-tags">
+                        <li><a class="button-tags" href="#">Traveling</a></li>
+                      </ul>
+                      <ul class="post-blog-meta">
+                        <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
+                      </ul> -->
+                    </div>
+                    <div class="post-blog-caption-body">
+                      <h5><a class="post-blog-title" href="package1.php">3-DAYS NYUNGWE FOREST CHIMPANZEES TOUR</a></h5>
+                    </div>
+                    <!-- <div class="post-blog-caption-footer">
+                      <time datetime="2019">Feb 27, 2019 at 6:53 pm</time><a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>
+                    </div> -->
+                  </div>
+                </article>
+                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages/ts/img.jpg" alt="" width="570" height="415"/></a>
+                  <div class="post-blog-caption">
+                    <div class="post-blog-caption-header">
+                      <!-- <ul class="post-blog-tags">
+                        <li><a class="button-tags" href="#">Traveling</a></li>
+                      </ul>
+                      <ul class="post-blog-meta">
+                        <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
+                      </ul> -->
+                    </div>
+                    <div class="post-blog-caption-body">
+                      <h5><a class="post-blog-title" href="package3.php">2-DAY AKAGERA NATIONAL PARK SAFARI</a></h5>
+                    </div>
+                    <!-- <div class="post-blog-caption-footer">
+                      <time datetime="2019">Feb 27, 2019 at 6:53 pm</time><a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>
+                    </div> -->
+                  </div>
+                </article>
+                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages/ts/img2.jpg" alt="" width="570" height="415"/></a>
+                  <div class="post-blog-caption">
+                    <div class="post-blog-caption-header">
+                      <!-- <ul class="post-blog-tags">
+                        <li><a class="button-tags" href="#">Traveling</a></li>
+                      </ul>
+                      <ul class="post-blog-meta">
+                        <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
+                      </ul> -->
+                    </div>
+                    <div class="post-blog-caption-body">
+                      <h5><a class="post-blog-title" href="package4.php">4-DAYS GORILLA TREKKING, BIG 5 & BIG CATS</a></h5>
+                    </div>
+                    <!-- <div class="post-blog-caption-footer">
+                      <time datetime="2019">Feb 27, 2019 at 6:53 pm</time><a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>
+                    </div> -->
+                  </div>
+                </article>
+                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages/ts/Zanzibar (1).jpg" alt="" width="570" height="415"/></a>
+                  <div class="post-blog-caption">
+                    <div class="post-blog-caption-header">
+                      <!-- <ul class="post-blog-tags">
+                        <li><a class="button-tags" href="#">Traveling</a></li>
+                      </ul>
+                      <ul class="post-blog-meta">
+                        <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
+                      </ul> -->
+                    </div>
+                    <div class="post-blog-caption-body">
+                      <h5><a class="post-blog-title" href="package5.php">A SPECIAL GETWAY TO ZANZIBAR</a></h5>
+                    </div>
+                    <!-- <div class="post-blog-caption-footer">
+                      <time datetime="2019">Feb 27, 2019 at 6:53 pm</time><a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>
+                    </div> -->
+                  </div>
+                </article>
+                <article class="post-blog"><a class="post-blog-image" href="#"><img src="SiteImages/ts/Zanzibar (1).jpg" alt="" width="570" height="415"/></a>
+                  <div class="post-blog-caption">
+                    <div class="post-blog-caption-header">
+                      <!-- <ul class="post-blog-tags">
+                        <li><a class="button-tags" href="#">Traveling</a></li>
+                      </ul>
+                      <ul class="post-blog-meta">
+                        <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
+                      </ul> -->
+                    </div>
+                    <div class="post-blog-caption-body">
+                      <h5><a class="post-blog-title" href="package5.php">A SPECIAL GETWAY TO ZANZIBAR</a></h5>
+                    </div>
+                    <!-- <div class="post-blog-caption-footer">
+                      <time datetime="2019">Feb 27, 2019 at 6:53 pm</time><a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>
+                    </div> -->
+                  </div>
+                </article>
               </div>
             </div>
             <!-- <div class="col-12"><a class="button button-secondary button-nina button-offset-lg" href="#">view all blog posts</a></div> -->
@@ -710,16 +785,16 @@
             </div>
           </div>
         </div>
-      <!-- </section><a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a> -->
+      <!-- </section><a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.php" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a> -->
 
       <!-- Footer Minimal-->
       <footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
         <div class="container container-wide">
           <div class="row row-fix justify-content-sm-center align-items-md-center row-30">
-            <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.html"><img class="inverse-logo" src="" alt="" width="208" height="46"/></a></div>
+          <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.php"><img class="inverse-logo" src="SiteImages/ts/TRAVEL TEAM RWANDA-LOGO BLACK2.png" alt="" width="250" height="200"/></a></div>
             <div class="col-md-10 col-lg-7 col-xl-4">
-              <p class="right">&#169;&nbsp;<span class="copyright-year"></span> All Rights Reserved. Design&nbsp;by&nbsp;<a href="Terms.html">Terms and condition</a>
-                <br><a href="Privacy.html">Privacy Policy</a></p>
+              <p class="right">&#169;&nbsp;<span class="copyright-year"></span> All Rights Reserved. Design&nbsp;by&nbsp;<a href="Terms.php">Terms and condition</a>
+                <br><a href="Privacy.php">Privacy Policy</a></p>
               
             </div>
             <div class="col-md-10 col-lg-7 col-xl-4 text-xl-right">

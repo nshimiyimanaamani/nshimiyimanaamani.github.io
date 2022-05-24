@@ -3,176 +3,87 @@
   <head>
     <!-- Site Title-->
     <title>Terms and conditions</title>
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <link rel="icon" href="SiteImages/PHOTO-2022-05-10-16-15-34-removebg-preview.png" type="image/x-icon">
-    <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
-		<!--[if lt IE 10]>
-    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <script src="js/html5shiv.min.js"> </script>
-		<![endif]--> 
-  </head>
-  <body>
-    <!-- Page preloader-->
-    <div class="page-loader"> 
-      <div class="page-loader-body"> 
-        <div class="preloader-wrapper big active"> 
-          <div class="spinner-layer spinner-blue"> 
-            <div class="circle-clipper left">
-              <div class="circle"> </div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"> </div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-          <div class="spinner-layer spinner-red">
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"> </div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-          <div class="spinner-layer spinner-yellow"> 
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"></div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"> </div>
-            </div>
-          </div>
-          <div class="spinner-layer spinner-green"> 
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div>
-            <div class="gap-patch">
-              <div class="circle"></div>
-            </div>
-            <div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php include_once "menu.php"?>
     <!-- Page-->
     <!-- <div class="page"><a class="section section-banner text-center d-none d-xl-block" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )"><img src="images/banner/foreground-04-1600x60.png" srcset="images/banner/foreground-04-1600x60.png 1x, images/banner/foreground-04-3200x120.png 2x" alt="" width="1600" height="310"></a> -->
       <!-- Page Header-->
       <header class="section page-header breadcrumbs-custom-wrap bg-gradient bg-secondary-2 novi-background bg-cover">
         <!-- RD Navbar-->
-        <div class="rd-navbar-wrap rd-navbar-default">
-          <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static" data-md-stick-up-offset="2px" data-lg-stick-up-offset="2px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-xl-stick-up="true">
-            <div class="rd-navbar-inner"> 
-              <!-- RD Navbar Panel-->
-              <div class="rd-navbar-panel">
-                <!-- RD Navbar Toggle-->
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img class="logo-default" src="images/logo-default-208x46.png" alt="" width="208" height="46"/><img class="logo-inverse" src="images/logo-inverse-208x46.png" alt="" width="208" height="46"/></a></div>
-              </div>
-              <div class="rd-navbar-aside-right">
-                <div class="rd-navbar-nav-wrap">
-                  <!-- RD Navbar Nav-->
-                  <ul class="rd-navbar-nav">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class=""><a href="about-us.html">About Us</a>
-                    </li>
-                    <li><a href="contacts.html">Contacts</a>
-                    </li>
-                    <li><a href="typography.html">Typography</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
+     
         <!-- Breadcrumbs-->
         <section class="breadcrumbs-custom" style="background: url(&quot;SiteImages/ts/-1x-1.jpg&quot;); background-size: cover;">
           <div class="container">
             <!-- <p class="breadcrumbs-custom-subtitle">Who We Are</p> -->
-            <p class="heading-1 breadcrumbs-custom-title">Privacy Policy</p>
+            <p class="heading-1 breadcrumbs-custom-title">Terms and condition</p>
             <ul class="breadcrumbs-custom-path">
               <li><a href="index.html">Home</a></li>
-              <li class="">Privacy Policy</li>
+              <li class="">Terms and condition</li>
             </ul>
           </div>
         </section>
 
       </header>
       <br><br>
-     <h3 style="text-align: center;">PRIVACY POLICY</h3>
-     
+     <h3 style="text-align: center;">PLEASE READ THESE TERMS AND CONDITIONS OF SERVICE BEFORE USING Travelteamrw.com</h3>
+      <p  style="text-align: left; font-weight: 600;  margin-left: 2%; text-transform:lowercase;">BY USING THIS SITE, BY SENDING OR DELIVERING YOUR PASSPORT(S), APPLICATION(S), OTHER DOCUMENT(S) TO travelteam.com, YOU ACKNOWLEDGE READING AND ACCEPTING THESE TERMS & CONDITIONS AND AGREE NOT TO VIOLATE OUR POLICIES.</p>
         
-        <p  style="text-align: left; font-weight: 600;  margin-left: 2%;">TRAVEL TEAM RWANDA is committed to maintaining the privacy of personal information that you provide to us when using our web site. This Privacy Policy describes how we treat personal information received about you when you visit www.travelteamrw.com. We may make content or services from other web sites including our co-branded web sites available to you from links located on https://travelteamrw.com/. These other web sites are not subject to this Privacy Policy. We recommend that you review the privacy policy at each such web site to determine how that site protects your privacy.
-        </p>
+        <p  style="text-align: left; font-weight: 600;  margin-left: 2%;">By using this site, you convey your agreement with these Terms & Conditions and the Privacy Statement. If you do not agree with the terms stated in this agreement or are dissatisfied with the site, please direct your complaints to Contact Us page. Failure to comply with these Terms & Conditions may result in legal action and restriction of your ability to access this site. From time to time, travelteamrw.com may modify these Terms & Conditions. Please continue to review this agreement whenever accessing or using this site.</p>
         <p  style="text-align: left; font-weight: 600;  margin-left: 2%; "><span style="color:black">
-           Privacy Policy Promise</span>While information is the cornerstone of our ability to provide superior service, our most important asset is our clients’ trust. Keeping client information secure, and using it only as our clients would want us to, is a top priority for all of us at Travel Team. Here then, is our promise to our individual customers:</p>
-        <p style="text-align: left; font-weight: 600; margin-left: 2%;"><li class="maintext">We will safeguard, according to strict standards of security and confidentiality, any information our customers share with us</li>
-        <li class="maintext">We will limit the collection and use of customer information to the minimum we require to deliver superior service to our customers, which includes advising our customers about our products, services and other opportunities, and to administer our business.</li>
-    <li class="maintext">We will permit only authorized employees, who are trained in the proper handling of customer information, to have access to that information. Employees who violate our Privacy Promise will be subject to our normal disciplinary process.</li>
-    <li class="maintext">We will not reveal customer information to any external organization unless we have previously informed the customer in disclosures or agreements, or are required by law.</li>
-    <li class="maintext">We will always maintain control over the confidentiality of our customer information. We may, however, share customer information with reputable companies when a customer has expressed an interest in their service or product. Please note that this Privacy Policy does not apply to these other company’s use of customer information.</li>
-    <li class="maintext">Whenever we hire other organizations to provide support services, we will require them to conform to our privacy standards and to allow us to audit them for compliance.</li>
-    <li class="maintext">We will attempt to keep customer files complete, up-to-date, and accurate. We will tell our customers how and where to conveniently access their information (except when we’re prohibited by law) and how to notify us about errors which we will promptly correct.</li><br>
-    <span class="maintext">Information we collect</span>
-    </p>
+            Refund Policy:</span>If you cancel the service, you may be entitled to a refund
+            . If your passport and other supporting documents were received by travelteamrw.com and
+             have already been submitted by travelteamrw.com for processing at the time of cancelation you will not receive any refund; however, if the submission has not been made at the time of cancelation you will receive a partial refund equal to the difference of any fees paid, return shipping charges, and a $25 processing charge. No refunds will be giving for electronic visas (e-visas) to Afghanistan, Albania, Algeria, American Samoa, Andorra, Angola, Anguilla, Antigua Barbuda, Argentina, Armenia, Aruba, Australia, Austria, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bermuda, Bhutan, Bolivia, Bosnia Herzegovina, Botswana, Brazil, Brunei Darussalam, Bulgaria, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Cayman Islands, Central African Republic, Chad, Chile, China, Christmas Island, Cocos Islands, Colombia, Comoros, Congo Democratic Republic, Congo Republic, Cook Islands, Costa Rica, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Ethiopia, Falkland Islands, Faroe Islands, Fiji, Finland, France, French Guiana, French Polynesia, Gabon, Gambia, Georgia, Germany, Ghana, Gibraltar, Greece, Greenland, Grenada, Guadeloupe, Guam, Guatemala, Guinea, Guinea Bissau, Guyana, Haiti, Honduras, Hong Kong, Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland, Israel, Italy, Ivory Coast, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, Kosovo, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macau, Macedonia, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Martinique, Mauritania, Mauritius, Mayotte, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Montserrat, Morocco, Mozambique, Myanmar, Namibia, Nauru, Nepal, Netherlands, Netherlands Antilles, New Caledonia, New Zealand, Nicaragua, Niger, Nigeria, Niue, Norfolk Island, North Korea, Norway, Oman, Pakistan, Palau, Palestine, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Pitcairn Island, Poland, Portugal, Qatar, Reunion, Romania, Russia, Rwanda, Saint Helena, Saint Kitts Nevis, Saint Lucia, Saint Martin, Saint Pierre Miquelon, Saint Vincent Grenadines, Samoa, San Marino, Sao Tome Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovak Republic, Slovenia, Solomon Islands, Somalia, South Africa, South Korea, South Sudan, Spain, Sri Lanka, Sudan, Suriname, Swaziland, Sweden, Switzerland, Syria, Taiwan, Tajikistan, Tanzania, Thailand, Timor Leste, Togo, Tokelau, Tonga, Trinidad Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, United Arab Emirates, United Kingdom, United States, Uruguay, US Virgin Islands, Uzbekistan, Vanuatu, Vatican, Venezuela, Vietnam, Wallis Futuna Islands, Yemen, Zambia and Zimbabwe. If you have not shipped your passport and other supporting documents and wish to cancel, you will receive a partial refund if regarding entry into Austria, Azerbaijan, Bangladesh, Belgium, Bolivia, Brazil, Cambodia, China, Czech Republic, Denmark, Estonia, Finland, France, Germany, Ghana, Greece, Hungary, Iceland, India, Indonesia, Ireland, Italy, Kenya, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Nepal, Netherlands, Nigeria, Norway, Oman, Poland, Portugal, Qatar, Russia, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, Taiwan, Turkey, Ukraine, Uzbekistan, Vietnam and Zimbabwe (refund is equal to the difference of any fees paid and a $25 processing charge) and a full refund if regarding entry to any other country.</p>
+        <p style="text-align: left; font-weight: 600; margin-left: 2%;">You may cancel by using Cancel/Delete function in your account when logged in or by calling our service line. Notwithstanding the foregoing, travelteamrw.com cannot process refunds for Credit Card payments over 3 months old under any circumstances. In such cases travelteamrw.com may issue a store credit applicable to future applications submitted through travelteamrw.com. Credit cannot be applied to applications submitted through other agencies or applications submitted to Consulates directly.</p><br>
         <p  style="text-align: left; font-weight: 600;  margin-left: 2%; "><span style="color:black">
-            General:</span>When you register, and at other times, we may collect personally identifiable information from you that may include your name, address, telephone number, e-mail address, and facts about your computer. We do not, however, knowingly collect personal information from children under the age of thirteen. In addition, if a user is under 18, unless consent is obtained from your parent/guardian, you are not allowed to provide us with personal information.</p>
+            Processing time:</span>Processing time for visas and passports quoted by travelteamrw.com are approximate and based on processing times provided by Consulates and the Department of State under normal circumstances. Processing time should be calculated starting the next business day of the date when the documents are delivered to travelteamrw.com for "Same Day" and "Next Day" processing options. For other processing options processing time should be calculated starting the day after submission of the documents to the embassy or the Department of State. Consulates and/or the US Department of State may request additional documents and may delay and/or deny processing at their discretion without further explanations. travelteamrw.com will not be held responsible for any delays, cancellations, financial and other losses due to denial or delay in processing. No service fees, embassy fees, courier fees, shipping charges or any portion thereof will be refunded due to delays or denial of service.</p>
 
-           
-            <p class="maintext"><span style="color: black;">Web site usage information:</span>
-                We automatically collect IP addresses and Web site usage information from you when you visit our Web site. This information helps us evaluate how our visitors and customers use and navigate our Web site on an aggregate basis, including the number and frequency of visitors and customers to each Web page, and the length of their visits.
-            </p>
-            <p class="maintext">How we use information collected</p>
-            <p class="maintext"><span style="color: black;">We may use information in the following ways</span>
-                For the purposes for which you specifically provided the information. To send you e-mail notifications about our new or existing products and services, special offers, or to otherwise contact you. To enhance existing features or develop new features, products and services. To allow us to personalize the content and advertising that you and others see based on personal characteristics or preferences. We may combine the information that we collect from you on http://www.travelteamrw.com with information that you provide to us in connection with your use of our other products, services and web site. We may disclose and use personally identifiable information in special circumstances where it is necessary to enforce our Terms of Use (for example, when necessary to protect our intellectual property rights). We may also disclose or use your personal information when we, in good faith, believe that the law requires us to do so.
-
-            </p>
-            <p class="maintext"><span style="color:black">Cookies:</span>
-                We employ cookie technology to help visitors and customers move faster through our site. When you sign on to our Web site or take advantage of several key features, we may pass cookies to your computer. A cookie is a string of information that is sent by a Web site and stored on your hard drive or temporarily in your computer’s memory.
-
+            <p style="text-align:left; font-weight: 600; margin-left: 2%;">Fees and Payments. You agree that your credit card(s) will be billed immediately after online verification takes place. You agree to pay all fees and charges for any products or services offered for sale by travelteamrw.com or by any other vendor or service provider through Travel Team Rwanda Ltd. You shall pay all applicable taxes and shipping charges relating to the purchase of any other products or services. Requirements and fees related to the processing of passports and visas are subject to change, including, but not limited to, embassy consular fees, application forms and documentation required for visa issuance, which are subject to change without notice.</p>
+            <p style="text-align: left; font-weight: 600; margin-left: 2%;">Your documents are safe with Travel Team Rwanda Ltd. We take our job seriously. All passports that are submitted to travel Team online or in person for processing are jealously guarded against any loss or damage. If you choose DHL when applying online, we will even cover your passport in transit to us and from us to you. Your peace of mind is our greatest reward.</p><br>
+            <p class="maintext"><span style="color: black;">Shipping:</span>
+                Travel Team Rwanda ltd & travelteamrw.com uses DHL for all its shipping needs unless instructed otherwise. We use standard envelopes and other standard packing materials provided by DHL or another shipping company as instructed by a client. Sometimes documents get damaged or lost during shipping. Travel Team Rwanda or travelteamrw.com is not responsible for any damage or loss that occurs while the product is in client's possession or in transit. We strongly encourage our clients to use shipping services that provide real time tracking of packages in transit. We are not responsible for any failures or mistakes by shipping companies to deliver, deliver on time, track, locate, and keep safe, any and all packages. Travel Team Rwanda ltd & travelteamrw.com cannot and does not warrant any claims or guarantees made by shipping companies as to the quality of service, timely delivery, availability of service, and other claims.
+            </p><br>
+            <p class="maintext"><span style="color: black;">Service description:</span>
+                Travel Team Rwanda ltd & travelteamrw.com does its best to correctly describe all services that appear on the website. However, We do not warrant that all the statements, definitions, and descriptions are most current, complete, accurate, and error free. Consulates often change their requirements and fees without prior warning and changes can take effect immediately. In an event, shall any description of service or any information on our site become outdated or inaccurate, you agree to hold Travel Team Rwanda ltd & travelteamrw.com harmless. We will not be responsible for any and all inaccuracies or mistakes in service descriptions, prices, processing times, processing dates, and other information provided on the travelteamrw.com website.
 
             </p>
-            <p class="maintext"><span style="color: black;">Security:</span>
-                The personally identifiable information we collect about you is stored in limited access servers. We will maintain safeguards to protect the security of these servers and your personally identifiable information.
+            <p class="maintext"><span style="color:black">Service:</span>
+                Requirements and fees related to the processing of passports and visas are subject to change without notice. Application forms and additional documents required for visa issuance are subject to change without notice. Consular and U.S. Passport Agency officials may request additional documentation at their discretion. They may also decline issuance of travel documents, visa, or passport without disclosing the reason for denial. Processing time for visas and passports quoted by travelteamrw.com are approximations based on normal circumstances, and are deemed reliable in most cases but are not guaranteed. We will not be held responsible for any delays, cancellations, financial and other losses due to denial or delay in processing. Travel Team Rwanda ltd & travelteamrw.com reserves the right to decline processing of documents for any reason, including but not limited to incomplete documentation, insufficient processing time, or unusual circumstances.
+
+            </p>
+            <p class="maintext"><span style="color: black;">Privacy:</span>Please direct your attention to our Privacy Statement, by which you also agree to be bound when using this site. Privacy Statement is a part of this agreement.
             </p>
             <br>
-            <p class="maintext"><span style="color: black;">Internet-based Transfers:</span>
+            <p class="maintext"><span style="color: black;">Communications:</span>
             
-                Given that the Internet is a global environment, using the Internet to collect and process personal data necessarily involves the transmission of data on an international basis. Therefore, by browsing https://travelteamrw.com/ and communicating electronically with us you acknowledge and agree to our processing of personal data in this way.
-
+                By using this site and our services you give Travel Team Rwanda ltd & travelteamrw.com your express permission to contact you via email, messaging, or other electronic or non-electronic forms of communication for all purposes including distribution of marketing and promotional materials.
             </p>
             <br>
-            <p class="maintext"><span style="color:black">Policy Modifications:</span>By submitting registration and application forms, you certify that the information you provide is true and correct. You are responsible for maintaining the confidentiality of your User ID (login) and password. You are responsible for all uses of your User ID (login), whether or not authorized by you. You agree to notify us immediately of any unauthorized use of your User ID or password. Please refer to our Privacy Statement that governs submitted & distributed information.
+            <p class="maintext"><span style="color:black">Security:</span>By submitting registration and application forms, you certify that the information you provide is true and correct. You are responsible for maintaining the confidentiality of your User ID (login) and password. You are responsible for all uses of your User ID (login), whether or not authorized by you. You agree to notify us immediately of any unauthorized use of your User ID or password. Please refer to our Privacy Statement that governs submitted & distributed information.
             </p>
             <p class="maintext"><span style="color:black">Intellectual Property:</span>
-                We may change this Privacy Policy from time to time. We will post any changes here, so be sure to check back periodically. However, please be assured that if the Privacy Policy changes in the future, we will not use the personal information you have submitted to us under this Privacy Policy in a manner that is materially inconsistent with this Privacy Policy, without your prior consent.
+                This Web site, including but not limited to text, content, photographs, graphics, software applications, is protected as a collective work by copyrights, trademarks, service marks, international treaties and/or other proprietary rights and laws of Rwanda. and other countries. All logos, images, Web site design, text, graphics, software, HTML code used to generate Web pages on Travel Team Rwanda ltd & travelteamrw.com, are the sole property of Travel Team Rwanda ltd & travelteamrw.com and cannot be copied, adapted, sketched, painted, or otherwise reproduced in any manner whatsoever without the prior written permission of Travel Team Rwanda ltd & travelteamrw.com. All other service marks, trademarks, names or logos, individual articles, columns and other elements are the property of their respective owners. We are not responsible for other service marks, trademarks, names or logos, articles, columns, and other elements that may be copyrighted or may be the trademarks and/or service marks of their respective owners.
             </p>
             <br>
-            <p class="maintext"><span style="color: black;">Comments and Questions:</span>
+            <p class="maintext"><span style="color: black;">Copyrights and Trademarks compliance:</span>
             
-                If you have any questions, comments or concerns about our Privacy Policy, please contact us.
+                Travel Team Rwanda ltd & travelteamrw.com takes all steps necessary to ensure compliance with and honoring intellectual property rights of others. You hereby agree to hold travelteamrw.com free of any responsibility and liability arising from any actual or alleged intellectual rights infringement and agree to notify us of any such actual or perceived infringement immediately upon discovery in writing. You also agree to allow travelteamrw.com enough time to investigate and respond to any such infringement or accusation before taking any legal action.
+
             </p>
-           <br>
-        
-        
+            <p class="maintext"><span style="color: black;">Indemnification:</span> You shall indemnify, hold and save harmless, and defend at your own expense Travel Team Rwanda ltd & travelteamrw.com, its officers, directors, agents, and employees from and against all suits, claims, demands and liability of any nature or kind, including costs and expenses arising out of acts of violation of these Terms & Conditions by you, your employees, agents, sub-contractors, or anyone using your computer/user ID. This requirement shall extend to claims or liabilities of any third parties arising out of the use of any patented or copyrighted information or for any other reason. You agree to pay any and all costs, damages and expenses, including, but not limited to, reasonable attorneys' fees and costs awarded against or otherwise incurred by or in connection with or arising from any claim, suit and/or action or proceeding attributable to any such action.
+            </p>
+            <p class="maintext">Termination. You agree that Travel Team Rwanda ltd & travelteamrw.com shall have the right to terminate your ability to access this site at any time without notice and you that will not hold Travel Team Rwanda ltd & travelteamrw.com responsible or liable for any damages whatsoever. 
+                We reserves the right to decline processing of documents for any reason, including but not limited to incomplete documentation, insufficient processing time, or unusual circumstances.
+            </p>
+            <p class="maintext">Links. This web site contains links to third-party Web sites. These links are provided exclusively for information purposes and to assist in locating other Internet resources. We are not responsible for the content, accuracy of information, expressed opinions or statements, of any third-party sites linked to us or any links contained in a linked site.</p>
+            <p class="maintext" style="text-transform: lowercase;">Restrictions on Use. This site is intended for use by adult individuals over 18 years of age. It may not be used for any illegal purpose or in any manner inconsistent with these Terms & Conditions. You may not use this site for any reason other than its intended purpose. If you submit any information to our site, you agree not to post or transmit pyramid schemes or chain letters, a virus or any other harmful component, anything that violates the copyright or intellectual property rights of any person or entity, including but not limited to copyrights and trademarks, anything that is defamatory, abusive, libelous, unlawful, obscene, threatening, harassing, fraudulent, pornographic, harmful, or that could constitute or encourage conduct that would be considered a criminal offense, give rise to civil liability, or otherwise violate any law. YOU MAY NOT COPY, REPRODUCE, RECOMPILE, DECOMPILE, DISASSEMBLE, REVERSE ENGINEER, DISTRIBUTE, PUBLISH, DISPLAY, PERFORM, MODIFY, UPLOAD TO, CREATE DERIVATIVE WORKS FROM, RECIRCULATE, TRANSMIT OR IN ANY WAY EXPLOIT ANY PART OF THIS WEBSITE, IMAGES AND OTHER MATERIAL, OR OFFER ANY PART OF THE SERVICE FOR SALE, OR DISTRIBUTION WITHOUT THE PRIOR WRITTEN CONSENT OF Travel Team Rwanda ltd & travelteamrw.com.
+
+            </p>
+            <p class="maintext">Disclaimer. All the information on this web site is provided "as is" and without warranties, expressed or implied, as to the accuracy or completeness of the information, fitness for a particular use or purpose, including warranties of merchantability, title, non-infringement or otherwise. In no event shall Travel Team Rwanda ltd & travelteamrw.com be responsible for any damages or losses whatsoever, direct or indirect, incidental or consequential, special or punitive, arising from or relating to the use or inability to use this web site. We hereby disclaim all warranties with regard to the hardware and software used to support this web site including all implied warranties, fitness for a particular purpose and incidental, special, direct or consequential damages. Accordingly, Travel Team Rwanda ltd & travelteamrw.com, its officers and employees, partners, affiliates, subsidiaries, successors and assigns, and its third-party agents shall not, directly or indirectly, be liable, in any way, to you or any other person for any inaccuracies or errors in or omissions from the services including, but not limited to delays, errors or interruptions in the transmission or delivery of services, products, or loss, or damage arising for any reason from non-performance. VisaHQ.com does not make any warranties or representations of any kind with respect to information, requirements, restrictions, quality, content, theme, style, and expressions provided directly or through any third party to this web site.
+
+            </p>
+            <p class="maintext">Entire Agreement. This agreement along with the Privacy Statement constitute the entire agreement between you and Travel Team Rwanda ltd & travelteamrw.com and supersedes any and all prior agreements, statements or representations regarding Travel Team Rwanda ltd & travelteamrw.com. Failure to enforce any provision of this Agreement shall not be construed as a waiver of such provision or of the right to enforce such provision. No waiver, amendment, or other modification made by you shall be valid or binding unless in writing and signed by both parties. This agreement is governed by the laws of Rwanda and east Africa.
+
+            </p>
+            <br>
       <!-- <section class="section section-lg bg-default">
         <div class="container container-bigger">rse">
             <div class="col-md-10 col-lg-6 col-xl-5">
@@ -257,8 +168,8 @@
                   </ul>
                 </div>
               </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
+            </div> -->
+            <!-- <div class="col-md-6 col-lg-3">
               <div class="team-classic team-classic-circle">
                 <figure><img class="rounded-circle" src="SiteImages/ts/PHOTO-2022-05-15-12-42-31 (1).jpg" alt="" width="300" height="300"/>
                 </figure>
@@ -274,8 +185,8 @@
                   </ul>
                 </div>
               </div>
-            </div> --> 
-            <!-- <div class="col-md-6 col-lg-3">
+            </div>
+            <div class="col-md-6 col-lg-3">
               <div class="team-classic team-classic-circle">
                 <figure><img class="rounded-circle" src="SiteImages/ts/1646425937270.jpg" alt="" width="300" height="300"/>
                 </figure>
@@ -295,7 +206,7 @@
   
           </div>
         </div>
-      </section>  -->
+      </section>  --> 
 
       <!-- Our history-->
       <!-- <section class="section section-lg bg-gray-700 novi-background bg-cover">
@@ -438,16 +349,16 @@
       </section> -->
 
       <!-- CTA Gradient-->
-      <section class="section section-xs text-center bg-gray-700 novi-background bg-cover">
+      <!-- <section class="section section-xs text-center bg-gray-700 novi-background bg-cover">
         <div class="container container-wide">
           <div class="box-cta-thin">
             <p class="big"><strong>The most affordable prices!  </strong>&nbsp;<span>Choose your favorite destination!</span>&nbsp;<a class="link-bold" href="#">Order a tour! </a></p>
           </div>
         </div>
       </section>
-<a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
+<a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a> -->
       <!-- Footer Minimal-->
-      <footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
+      <!-- <footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
         <div class="container container-wide">
           <div class="row row-fix justify-content-sm-center align-items-md-center row-30">
             <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.html"><img class="inverse-logo" src="images/logo-inverse-208x46.png" alt="" width="208" height="46"/></a></div>
@@ -465,7 +376,8 @@
             </div>
           </div>
         </div>
-      </footer>
+      </footer> -->
+      <?php include_once "footer.php"?>
     </div>
     <style>
         .maintext{
